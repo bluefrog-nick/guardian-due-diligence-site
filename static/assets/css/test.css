@@ -13,5 +13,8 @@ li {
         width: 30%;
         display: inline-block;
     }
+
+    #content > section:nth-child(2) {
+        text-align: left;
+    }
 }
-  
