@@ -276,7 +276,8 @@ button,
 input[type="submit"],
 input[type="button"],
 input[type="reset"],
-a.button {
+a.button,
+section#about a {
   background-color: _palette(accent);
   border: 3px solid _palette(accent);
   border-radius: 25px;
@@ -301,7 +302,8 @@ a.button {
   }
 }
 
-a.button {
+a.button,
+section#about a {
   height: auto;
   padding-bottom: 0.64285em;
   padding-top: 0.64285em;
@@ -394,15 +396,22 @@ img {
 
 /* Background gradient */
 .bg-gradient {
-  background: _palette(accent);
+  background: linear-gradient(to right, _palette(accent-alt), _palette(accent));
   background: -webkit-linear-gradient(left,_palette(accent-alt), _palette(accent));
   background: linear-gradient(to right, _palette(accent-alt), _palette(accent));
 }
-
+section#hero .bg-gradient {
+  background: transparent;
+  // background: -webkit-linear-gradient(left,_palette(accent-alt), _palette(accent));
+  // background: linear-gradient(to right, _palette(accent-alt), _palette(accent));
+}
+section#hero .bg-img{
+  opacity: 1;
+  -webkit-animation: none;
+  animation: none;
+}
 /* Background Image */
 .bg-img {
-  -webkit-animation: fadeIn .75s ease-in-out;
-  animation: fadeIn .75s ease-in-out;
   background-position: center;
   background-size: cover;
   bottom: 0;

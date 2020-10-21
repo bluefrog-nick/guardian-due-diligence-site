@@ -196,6 +196,24 @@
   }
 }
 
+#contactsect {
+  ul{
+    padding-inline-start: 0px;
+    list-style-type: none;
+  }
+  p:first-child{
+    margin-bottom: 0px;
+  }
+}
+
+#psearch.hero-block, 
+#contacthero.hero-block{
+    padding-bottom: 12.5em!important;
+    padding-top: 7.5em!important;
+}
+.site-navigation .menu-item {
+  font-size: 1rem!important;
+}
 /* Read next */
 .read-next {
   margin: 0 0 5.625em;

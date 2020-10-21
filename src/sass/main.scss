@@ -15,8 +15,8 @@ $palette: (
   bg:                #f7f9fb,
   note:              #fcb41d,
   important:         #fc381d,
-  accent:            getPaletteKey(accent1),
-  accent-alt:        getPaletteKey(accent2),
+  accent:            #234B8C,
+  accent-alt:        #0A2165,
 );
 
 @import "imports/functions";
