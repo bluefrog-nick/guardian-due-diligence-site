@@ -1,9 +1,9 @@
-#content > section:nth-child(5) {
+#content > section:nth-child(4) {
     width: 30%;
     display: inline-block;
 }
 
-#content > section:nth-child(6) {
+#content > section:nth-child(5) {
     width: 30%;
     display: inline-block;
 }
