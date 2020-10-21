@@ -1,10 +1,10 @@
-#content > section:nth-child(4) {
+#content > section:nth-child(5) {
     width: 30%;
     display: inline-block;
     padding-left: 20%;
 }
 
-#content > section:nth-child(5) {
+#content > section:nth-child(6) {
     width: 30%;
     display: inline-block;
 }
