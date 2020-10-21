@@ -1,3 +1,4 @@
+import ContentBlockTwo from './ContentBlockTwo';
 import ContentBlock from './ContentBlock';
 import CtaBlock from './CtaBlock';
 import CtaButtons from './CtaButtons';
@@ -12,6 +13,7 @@ import Social from './Social';
 import Layout from './Layout';
 
 export {
+    ContentBlockTwo,
     ContentBlock,
     CtaBlock,
     CtaButtons,
@@ -27,6 +29,7 @@ export {
 };
 
 export default {
+    ContentBlockTwo,
     ContentBlock,
     CtaBlock,
     CtaButtons,
