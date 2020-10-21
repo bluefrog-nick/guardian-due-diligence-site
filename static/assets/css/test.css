@@ -1,11 +1,11 @@
 #content > section:nth-child(5) {
     width: 50%;
-    display: block;
+    display: inline-block;
 }
 
 #content > section:nth-child(6) {
     width: 50%;
-    display: block;
+    display: inline-block;
 }
 
 li {
