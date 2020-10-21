@@ -457,6 +457,22 @@ models:
         label: Action Buttons
         items:
           type: action
+  contentblocktwo:
+    type: object
+    label: Two Column Content Section
+    extends:
+      - section
+    fields:
+      - name: component
+        default: ContentBlockTwo
+      - type: markdown
+        name: content
+        label: Content
+        description: The text content of the section.
+      - type: markdown
+        name: content_two
+        label: Content Two
+        description: The text content of the second section.
   ctablock:
     type: object
     label: Call to Action Section
