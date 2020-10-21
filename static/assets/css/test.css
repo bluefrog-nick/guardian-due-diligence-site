@@ -1,10 +1,10 @@
 #content > section:nth-child(5) {
-    width: 49%;
+    width: 30%;
     display: inline-block;
 }
 
 #content > section:nth-child(6) {
-    width: 50%;
+    width: 30%;
     display: inline-block;
 }
 
