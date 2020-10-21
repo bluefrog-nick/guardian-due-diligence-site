@@ -244,6 +244,7 @@ models:
           labelField: title
           models:
             - contentblock
+            - contentblocktwo
             - ctablock
             - featuresblock
             - heroblock
@@ -306,6 +307,7 @@ models:
           labelField: title
           models:
             - contentblock
+            - contentblocktwo
             - ctablock
       - type: page_menus
         name: menus
