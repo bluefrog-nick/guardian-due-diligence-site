@@ -14,7 +14,7 @@ li {
         display: inline-block;
     }
 
-    #content > section:nth-child(2) {
+    #content > section:nth-child(2) * {
         text-align: left;
     }
 }
