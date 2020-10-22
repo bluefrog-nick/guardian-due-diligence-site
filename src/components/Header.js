@@ -9,7 +9,7 @@ export default class Header extends React.Component {
         let menu = _.get(this.props, 'pageContext.menus.main');
         return (
           <React.Fragment>
-            <div class="header-top"><div class="inner"><span class="header-address"><strong>Address:</strong> 4535 W Dublin Granville Rd, Dublin, OH  43017</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>Phone: </strong><a href="tel:614-937-3490"><i class="fas fa-phone-alt"></i> 614-937-3490</a></div></div>
+            <div class="header-top"><div class="inner"><strong>Phone: </strong><a href="tel:614-937-3490"><i class="fas fa-phone-alt"></i> 614-937-3490</a></div></div>
             <header id="masthead" className="site-header outer">
               <div className="inner">
                 <div className="site-header-inside">
