@@ -7,6 +7,10 @@ li {
     margin: 0 auto;
 }
 
+.hero-block + .block {
+    padding-top: .5em;
+}
+
 #hero {
     min-height: 120px !important;
 }
