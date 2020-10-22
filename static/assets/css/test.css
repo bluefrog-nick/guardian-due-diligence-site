@@ -2,6 +2,10 @@ li {
     text-align: left;
 }
 
+#hero {
+    height: 16rem;
+}
+
 @media only screen and (min-width: 900px) {
     #content > section:nth-child(4) {
         margin-bottom: -1rem;
