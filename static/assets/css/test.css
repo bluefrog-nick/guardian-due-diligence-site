@@ -19,8 +19,12 @@ li {
     padding-top: .5em !important;
 }
 
-.block:not(.hero-block) {
-    margin-bottom: 1.5em;
+#content > section:nth-child(4) {
+    margin-bottom: -.5em;
+}
+
+#content > section:nth-child(5) {
+    margin-bottom: .5em;
 }
 
 #hero {
