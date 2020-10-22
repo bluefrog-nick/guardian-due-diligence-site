@@ -19,6 +19,10 @@ li {
     padding-top: .5em !important;
 }
 
+.block:not(.hero-block) {
+    margin-bottom: 1.5em;
+}
+
 #hero {
     min-height: 120px !important;
 }
