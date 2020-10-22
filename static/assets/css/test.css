@@ -3,7 +3,7 @@ li {
 }
 
 #hero {
-    height: 16rem;
+    height: 100vh !important;
 }
 
 @media only screen and (min-width: 900px) {
