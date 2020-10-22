@@ -13,7 +13,7 @@ export default class HeroBlock extends React.Component {
               <div className="inner-small">
                 <div className="block-inside">
                   <div className="block-content">
-                    <h2 className="block-title">{_.get(this.props, 'section.title')}</h2>
+                    <h1 className="block-title">{_.get(this.props, 'section.title')}</h1>
                     <div className="block-text">
                       {markdownify(_.get(this.props, 'section.content'))}
                     </div>
