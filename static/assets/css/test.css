@@ -2,6 +2,11 @@ li {
     text-align: left;
 }
 
+.list--double {
+    max-width: fit-content;
+    margin: 0 auto;
+}
+
 #hero {
     min-height: 120px !important;
 }
