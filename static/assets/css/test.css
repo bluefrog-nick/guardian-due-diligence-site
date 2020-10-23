@@ -34,7 +34,8 @@ li {
 }
 
 #contact-info {
-    margin-left: 20%;
+    margin-left: 15%;
+    margin-top: 0;
     width: 30%;
     display: inline-block;
 }
