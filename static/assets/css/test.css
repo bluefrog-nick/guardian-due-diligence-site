@@ -28,8 +28,8 @@ li {
     min-height: 120px !important;
 }
 
-#main-navigation .menu li:nth-child(3),
-#main-navigation .menu li:nth-child(4) {
+#main-navigation .menu li:nth-child(5),
+#main-navigation .menu li:nth-child(6) {
     display: none;
 }
 
