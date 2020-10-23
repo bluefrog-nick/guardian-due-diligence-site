@@ -28,6 +28,10 @@ li {
     min-height: 120px !important;
 }
 
+#contact-hero {
+    height: 10px;
+}
+
 #main-navigation .menu li:nth-child(4),
 #main-navigation .menu li:nth-child(5) {
     display: none;
