@@ -37,6 +37,14 @@ module.exports = {
                 pageContextProperty: `menus`,
                 menus: require('./src/data/menus.json'),
             }
-        }
+        },
+        {
+            resolve: "gatsby-plugin-hubspot",
+            options: {
+                trackingCode: "1234567",
+                respectDNT: true,
+                productionOnly: true,
+            },
+        },
     ]
 };
