@@ -46,5 +46,11 @@ module.exports = {
                 productionOnly: true,
             },
         },
+        {
+            resolve: "gatsby-source-hubspot-forms",
+            options: {
+                apiKey: "87e951b3-4b25-4b18-82f6-ab9512201ded",
+            },
+        },
     ]
 };
